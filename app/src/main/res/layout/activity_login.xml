@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/background">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -26,7 +27,8 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/minha_flor"
                     android:background="@drawable/logo"
-                    android:layout_marginBottom="@dimen/edit_bottom_up"/>
+                    android:layout_marginBottom="@dimen/edit_bottom_up"
+                    android:contentDescription="@string/string_img" />
 
                 <EditText
                     android:layout_width="match_parent"

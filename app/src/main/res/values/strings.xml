@@ -4,5 +4,6 @@
     <string name="hint_senha">senha</string>
     <string name="hint_usuario">Usuario</string>
     <string name="button_text">Login</string>
+    <string name="string_img">Bandeira</string>
 
 </resources>
