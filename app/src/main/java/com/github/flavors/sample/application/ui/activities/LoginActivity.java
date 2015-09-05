@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.github.flavors.sample.R;
+import com.github.flavors.sample.domain.model.Greetings;
+
+import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -16,6 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
-        Toast.makeText(this, R.string.login_message_test,Toast.LENGTH_LONG).show();
+        String greetings = new Greetings().raw();
+        Toast.makeText(this, greetings,Toast.LENGTH_LONG).show();
     }
 }

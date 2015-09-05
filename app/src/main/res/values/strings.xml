@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Android Flavors Sample</string>
+    <string name="app_name">Colombia</string>
 
     <string name="hint_senha">senha</string>
     <string name="hint_usuario">Usuario</string>
     <string name="button_text">Login</string>
     <string name="string_img">Bandeira</string>
+    <string name="login_message_test">viva a Pablo escobar</string>
 
 </resources>

@@ -33,22 +33,22 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_usuario"
+                    android:hint="@string/hint_usuario_japones"
                     android:layout_marginBottom="@dimen/edit_bottom"/>
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_senha"
+                    android:hint="@string/hint_senha_japones"
                     android:inputType="textPassword"/>
 
                 <Button
                     android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/button_text"
-                    android:background="@color/background_colombia"
-                    android:textColor="@color/background_text"
+                    android:text="@string/button_text_japones"
+                    android:background="#66CDAA"
+                    android:textColor="#ffffff"
                     android:onClick="login"/>
             </LinearLayout>
     </ScrollView>
